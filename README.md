@@ -3,7 +3,24 @@
 # Notes
 If the game whitescreens for you (in Chrome), please disable hardware acceleration.
 
-# TODO
+# TODO Starting a new road map for a new effort
+* Pathfinding changes/fixes
+ * Improve pathfinding such that a single adventurer minimizes time in already explored areas
+ * Add additional pathfinding rules (like a less random "left hand rule" and a pattern that encourages exhaustive floor searching instead of just going for the stairs) for players to purchase using SP
+* Purchasable rebalance
+ * Make all purchased options toggleable; add a slightly more expensive version of any options to disable the default versions of those options, like being able to remove "Gnome" from the race pool and "Tourist" from the class pool
+
+# TODO On the docket for the next effort
+* Unlockable "Equipment" controls
+ * Tell a character to avoid certain things and prioritize others
+* Class improvements
+ * Improve Monster to make it worth using/make any sense
+ * Possibly add class specific abilities (maybe the Monk can improve the number of squares it can move per tick, Barbarian gets stat bumps at certain health thresholds? Archaelogist is better at finding special tiles?)
+ * Maybe make Tourist not completely useless?
+* Race improvements
+ * Create incentive to play certain types of races and make races a little bit more variable
+
+# TODO deprecated, for now
 * Meta-currency (and benefits)
   * SP (every turn taken = 1 step)
     * Assignable behaviors & more behavior types
